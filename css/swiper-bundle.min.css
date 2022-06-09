@@ -1,0 +1,71 @@
+.swiper--wrapper {
+  /* wrapperのサイズを調整 */
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.swiper-slide {
+  /* スライドのサイズを調整、中身のテキスト配置調整、背景色 */
+  color: #4d4d4d;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  line-height: 300px;
+ margin: 0 100px 100px 100px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 24px; /* ボタンの幅 */
+  height: 40px; /* ボタンの高さ */
+  background-size: 24px 40px; /* 表示したいサイズ */
+  transform: translateY(-50%);
+  margin-top: 0;
+}
+
+/* 次ページボタンのスタイル */
+.swiper-button-next {
+background-image: url('https://kiomiru.co.jp/blog/wp-content/uploads/2021/09/img_arrow_black_01.png');
+}
+
+/* 前ページボタンのスタイル */
+.swiper-button-prev {
+  background-image: url('https://kiomiru.co.jp/blog/wp-content/uploads/2021/09/img_arrow_black_01.png');
+  transform: translateY(-50%) scale(-1, 1); /* 左右反転 */
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+ display: none;
+}
+
+.swiper{
+padding: 0 50px;
+}
+
+.swiper-slide:nth-child(3n + 1) {
+  /*1、4、7、3n+1枚目の背景色 */
+   background-image: url(img/IMG_7226.jpg);
+  background-size: auto;
+}
+
+.swiper-slide:nth-child(3n + 2) {
+  /*2、5、8、3n+2枚目の背景色 */
+
+}
+
+.swiper-slide:nth-child(3n + 3) {
+  /*3、6、9、3n+3枚目の背景色 */
+ 
+}
+
+.slide-img{
+  background-size: 50px;
+  width: 150px;
+  position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ text-align: center;
+}
