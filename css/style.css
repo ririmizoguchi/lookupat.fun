@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Klee One', cursive;
+  list-style: none;
 }
 
 header {
@@ -258,11 +259,21 @@ color: #fff;
   text-decoration: none;
 }
 
+/*ボタンで飛んだ先のページのcss*/
 .category{
  margin: 30px;
  font-size: 20px;
  letter-spacing: 0.5em;
 }
+
+.category_img{
+ height: 400px;
+ background-image: url(../img/retro_top.jpg);
+ background-size: contain;
+ background-attachment: fixed;
+}
+
+
 
 /*Swiper*/
 .descliption{
