@@ -9,7 +9,7 @@
 .fadein{
   opacity: 0;
   transform: translateY(20px);
-  transition: all 1s;
+  transition: all 1.5s;
 }
 
 header {
@@ -46,7 +46,6 @@ background-attachment: fixed;
 }
 
 .topimg2{
-display: flex;
 justify-content: center;
 width: 100%;
 }
@@ -65,16 +64,21 @@ width: 100%;
   text-align: center;
 }
 
-.about_paragraph{
-  padding-top: 30px;
-position: absolute;
-left: 50%;
-transform: translate(-50%, 0%);
-text-align: center;
-line-height: 50px;
+.about_textwrapper{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.icon1{
+.about_paragraph{
+ text-align: center;
+ line-height: 50px;
+}
+
+
+
+.upper_container{
   margin-top: 60px;
 }
 
@@ -126,7 +130,6 @@ white-space: nowrap;
 
 .jump_element1{
 background-image: url(../img/button1.jpg);
-
 }
 
 .jump_element2{
@@ -161,7 +164,7 @@ letter-spacing: 0.24em;
 
 
 h3{
-  margin: 80px;
+  margin: 50px;
   font-style: normal;
   font-weight: 100;
 
