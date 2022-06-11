@@ -130,18 +130,38 @@ white-space: nowrap;
 
 .jump_element1{
 background-image: url(../img/button1.jpg);
+transition: 1s;
 }
 
 .jump_element2{
 background-image: url(../img/button2.jpg);
+transition: 1s;
 }
 
 .jump_element3{
 background-image: url(../img/button3.jpg);
+transition: 1s;
 }
 
 .jump_element4{
 background-image: url(../img/button4.jpg);
+transition: 1s;
+}
+
+.jump_element1:hover{
+  background-image: url(../img/hover1.jpg);
+}
+
+.jump_element2:hover{
+  background-image: url(../img/hover2.jpg);
+}
+
+.jump_element3:hover{
+  background-image: url(../img/hover3.jpg);
+}
+
+.jump_element4:hover{
+  background-image: url(../img/hover4.jpg);
 }
 
 .rest_container{
@@ -191,8 +211,18 @@ margin: 180px;
   margin-top: 150px;
 }
 
+.destination_box{
+  display: flex;
+  justify-content: center;
+  gap:77px;
+}
+
+.destination_box.reverse{
+flex-direction:row-reverse;
+}
+
 .destination_textcontainer{
-  float: right;
+
 }
 
 .destination_subtitle{
@@ -210,7 +240,7 @@ h4{
 }
 
 .destination_textcontainer2{
-  float: left;
+  
   text-align: right;
   margin: 16px;
 }
