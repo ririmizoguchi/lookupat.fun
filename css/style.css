@@ -379,7 +379,7 @@ background-position-x: -580px, 0;
 }
 
 .topimg1{
-display: none;
+visibility: hidden;
 display: flex;
 justify-content: center;
 width: 100%;
@@ -406,6 +406,7 @@ background-attachment: fixed;
   font-size: 25px;
   letter-spacing: 0.67em;
   color: #fff;
+  text-align: left;
 }
 
 .fadein{
