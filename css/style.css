@@ -379,7 +379,7 @@ background-position-x: -580px, 0;
 }
 
 .topimg1{
-visibility: hidden;
+display: none;
 display: flex;
 justify-content: center;
 width: 100%;
@@ -393,6 +393,10 @@ background-attachment: fixed;
 }
 
 .title{
+  display: none;
+}
+
+.title2{
   width: 300px;
   word-wrap: break-word;
   position: absolute;
