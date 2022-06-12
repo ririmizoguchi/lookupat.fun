@@ -98,6 +98,7 @@ h2{
   color: #4d4d4d;
 }
 
+
 .jump_container{
  display: flex;
  text-align: center;
@@ -221,10 +222,6 @@ margin: 180px;
 flex-direction:row-reverse;
 }
 
-.destination_textcontainer{
-
-}
-
 .destination_subtitle{
   font-size: 16px;
 }
@@ -298,11 +295,46 @@ color: #fff;
   text-decoration: none;
 }
 
+.nav_container2 {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.288);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.nav_wrapper2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+  gap: 40px;
+}
+
+.nav_wrapper2 li {
+  list-style: none;
+  margin: 30px;
+}
+
+.nav_wrapper2 a {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Zen Maru Gothic';
+  letter-spacing: 0.18em;
+  text-align: center;
+  text-decoration: none;
+}
+
 /*css for retro, impact, genius and popup category*/
 .category{
  margin: 30px;
  font-size: 20px;
  letter-spacing: 0.5em;
+}
+
+.category_container{
+  position: relative;
 }
 
 .category_img{
@@ -388,4 +420,5 @@ width: 50%;
  width: 150px;
  top: 50%;
  left: 50%;
+ box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.4);
 }
