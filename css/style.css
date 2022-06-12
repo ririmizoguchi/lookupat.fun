@@ -122,11 +122,15 @@ box-shadow: inset 3px 3px 5px 0 rgba(0, 0, 0, 0.4);
 .jump_link{
   text-decoration: none;
   color: #fff;
-  position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
 white-space: nowrap;
+border-radius: 50%;
+}
+
+.jump_description{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .jump_element1{
@@ -308,9 +312,9 @@ color: #fff;
   width: 100%;
   display: flex;
   justify-content: center;
-    align-items: center;
   gap: 40px;
 }
+
 
 .nav_wrapper2 li {
   list-style: none;
