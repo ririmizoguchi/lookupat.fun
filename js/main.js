@@ -10,7 +10,9 @@ $(window).scroll(function () {
     }
 
   })
-  var borderAnimeTarget = $('.borderAnimeTarget').offset().top;
+  if ($('#borderAnimeTarget').hasClass('borderAnimeTarget')) {
+    var borderAnimeTarget = $('.borderAnimeTarget').offset().top;
+  }
   if (scroll > borderAnimeTarget - windowHeight + 100) {
     $(".borderAnimeTarget").addClass('current');
   }
