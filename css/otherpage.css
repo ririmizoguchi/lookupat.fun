@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Klee One', cursive;
+  list-style: none;
+}
+
+.fadein{
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1.5s;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+
+.category{
+ margin: 30px;
+ font-size: 20px;
+ letter-spacing: 0.5em;
+}
+
+.category_container{
+  position: relative;
+}
+
+.category_img{
+ height: 400px;
+ background-image: url(../img/retro_top.jpg);
+ background-size: contain;
+ background-attachment: fixed;
+}
+
+.column{
+  display: flex;
+  margin: 0 150px;
+}
+
+.space{
+  padding: 200px;
+}
+
+.photos_container{
+margin: 100px auto;
+}
+
+.photos_element{
+  width: 300px;
+  margin: 0 50px 200px;
+}
+
+.photos_description_left{
+  float: right;
+  writing-mode: vertical-rl;
+}
+
+.photos_description_right{
+  float: left;
+  writing-mode: vertical-rl;
+  margin-right: 25px;
+}
+
+.nav_container2 {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.288);
+  position: absolute;
+  display: flex;
+}
+
+.nav_wrapper2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+
+.nav_wrapper2 li {
+  list-style: none;
+  margin: 10px;
+}
+
+.nav_wrapper2 a {
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-family: 'Zen Maru Gothic';
+  letter-spacing: 0.3em;
+  text-align: center;
+  text-decoration: none;
+}
