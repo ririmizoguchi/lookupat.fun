@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Klee One', cursive;
+  font-family: 'Noto Sans JP', sans-serif;
   list-style: none;
 }
 
@@ -31,9 +32,14 @@ header {
   left: 50%;
   transform: translate(-48%, -50%);
   font-size: 30px;
+  font-family: 'Klee One';
   letter-spacing: 0.67em;
   color: #fff;
 white-space: nowrap;
+}
+
+.title2{
+  display: none;
 }
 
 .topimg1{
@@ -74,6 +80,7 @@ width: 100%;
 .about_paragraph{
  text-align: center;
  line-height: 50px;
+ font-family: 'Klee One';
 }
 
 
@@ -92,11 +99,13 @@ h2{
 .gallery_paragraph{
   margin-top: 50px;
   margin-bottom: 100px;
+  font-family: 'Klee One';
 }
 
 
 .description{
   color: #4d4d4d;
+  font-family: 'Klee One';
 }
 
 
@@ -132,6 +141,7 @@ border-radius: 50%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+   font-family: 'Klee One';
 }
 
 .jump_element1{
@@ -178,6 +188,7 @@ margin-top: 60px;
 .rest_paragraph{
   margin-top: 50px;
   font-size: 16px;
+  font-family: 'Klee One';
 line-height: 50px;
 letter-spacing: 0.24em;
 }
@@ -185,6 +196,7 @@ letter-spacing: 0.24em;
 .what_container{
   text-align: center;
   margin: 150px;
+
  
 }
 
@@ -193,6 +205,7 @@ h3{
   margin: 50px;
   font-style: normal;
   font-weight: 100;
+    font-family: 'Klee One';
 
 }
 
@@ -205,6 +218,7 @@ h3{
   font-style: normal;
 font-weight: 400;
   font-size: 16px;
+    font-family: 'Klee One';
 line-height: 35px;
 letter-spacing: 0.24em;
 }
@@ -229,16 +243,19 @@ flex-direction:row-reverse;
 
 .destination_subtitle{
   font-size: 16px;
+    font-family: 'Klee One';
 }
 
 h4{
   font-size: 35px;
   margin: 10px;
+    font-family: 'Klee One';
 }
 
 .destination_paragraph{
   font-size: 16px;
   line-height: 35px;
+    font-family: 'Klee One';
 }
 
 .destination_textcontainer2{
@@ -261,6 +278,7 @@ left: 50%;
 transform: translate(-50%, -50%);
 text-align: center;
 font-size: 18px;
+  font-family: 'Klee One';
 line-height: 29px;
 letter-spacing: 1.55em;
 color: #fff;

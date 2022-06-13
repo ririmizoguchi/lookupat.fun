@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Klee One', cursive;
+  font-family: 'Noto Sans JP', sans-serif;
   list-style: none;
 }
 
@@ -21,6 +22,7 @@ header {
 .category{
  margin: 30px;
  font-size: 20px;
+   font-family: 'Klee One';
  letter-spacing: 0.5em;
 }
 
@@ -56,12 +58,46 @@ margin: 100px auto;
 .photos_description_left{
   float: right;
   writing-mode: vertical-rl;
+    font-family: 'Klee One';
+color: #4d4d4d
 }
 
 .photos_description_right{
   float: left;
   writing-mode: vertical-rl;
   margin-right: 25px;
+    font-family: 'Klee One';
+    color: #4d4d4d
+  }
+
+#bg-fixed{
+  background: url(../img/toppic2.jpg)center/cover;
+  height:300px;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.footer_text{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+font-size: 18px;
+  font-family: 'Klee One';
+line-height: 29px;
+letter-spacing: 1.55em;
+color: #fff;
+}
+
+#footer{
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 0.2em;
+  background-color: #3FA1D0;
+  padding-top: 3px;
+  padding-bottom: 7px;
 }
 
 .nav_container2 {
