@@ -291,7 +291,7 @@ left: 50%;
 transform: translate(-50%, -50%);
 text-align: center;
 font-size: 18px;
-  font-family: 'Klee One';
+font-family: 'Klee One';
 line-height: 29px;
 letter-spacing: 1.55em;
 color: #fff;
@@ -401,6 +401,7 @@ width: 50%;
 .spbr{
   display: inline;
 }
+
 
 .nav_container{
   display: none;
@@ -528,6 +529,7 @@ h2{
  flex-direction: column;
  align-items: flex-start;
  margin: 0;
+ transform: translate(30px, 0);
 }
 
 .jump_container br{
@@ -617,7 +619,7 @@ word-wrap: break-word;
 
 
 h3{
-  margin: 0;
+  margin: 50px 0;
   font-style: normal;
   font-weight: 100;
   width: 197px;
@@ -636,6 +638,7 @@ font-weight: 400;
 line-height: 35px;
 letter-spacing: 0.24em;
 width: 227px;
+    transform: translate(-15px, 0);
 }
 
 .destination_container{
