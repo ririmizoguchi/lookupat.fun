@@ -376,6 +376,15 @@ width: 50%;
 
 @media screen and (max-width:800px) {
 
+  * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Klee One', cursive;
+  font-family: 'Noto Sans JP', sans-serif;
+  list-style: none;
+}
+
 .nav_container{
   display: none;
 }
