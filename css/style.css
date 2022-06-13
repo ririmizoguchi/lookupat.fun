@@ -643,30 +643,33 @@ margin: 180px;
 .destination_box{
   display: flex;
   justify-content: center;
-  gap:77px;
+  flex-wrap: wrap;
 }
 
 .destination_box.reverse{
-flex-direction:row-reverse;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .destination_subtitle{
-  font-size: 16px;
+  font-size: 13px;
 }
 
 h4{
-  font-size: 35px;
+  font-size: 21px;
   margin: 10px;
 }
 
 .destination_paragraph{
-  font-size: 16px;
+  font-size: 12px;
   line-height: 35px;
+  width: 263px;
 }
 
 .destination_textcontainer2{
   
-  text-align: right;
+  text-align: left;
   margin: 16px;
 }
 
@@ -683,10 +686,12 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 text-align: center;
-font-size: 18px;
+font-size: 13px;
 line-height: 29px;
 letter-spacing: 1.55em;
 color: #fff;
+white-space: none;
+width: 100%;
 }
 
 #footer{
