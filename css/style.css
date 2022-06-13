@@ -2,8 +2,9 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Zen Maru Gothic', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
   font-family: 'Klee One', cursive;
-  font-family: 'Noto Sans JP', sans-serif;
   list-style: none;
 }
 
@@ -380,8 +381,8 @@ width: 50%;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
   font-family: 'Klee One', cursive;
-  font-family: 'Noto Sans JP', sans-serif;
   list-style: none;
 }
 
