@@ -527,6 +527,7 @@ h2{
  max-width: 100%;
  flex-direction: column;
  align-items: flex-start;
+ margin: 0;
 }
 
 .jump_container br{
@@ -611,16 +612,16 @@ word-wrap: break-word;
 
 .what_container{
   text-align: center;
-  margin: 150px;
- 
+  margin: 0;
 }
 
 
 h3{
-  margin: 50px;
+  margin: 0;
   font-style: normal;
   font-weight: 100;
-
+  width: 197px;
+  font-size: 13px;
 }
 
 .current{
@@ -631,9 +632,10 @@ h3{
 .what_paragraph{
   font-style: normal;
 font-weight: 400;
-  font-size: 16px;
+  font-size: 13px;
 line-height: 35px;
 letter-spacing: 0.24em;
+width: 227px;
 }
 
 .destination_container{
