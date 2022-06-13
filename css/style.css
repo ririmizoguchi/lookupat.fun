@@ -12,6 +12,10 @@
   display: none;
 }
 
+.humburger{
+  display: none;
+}
+
 .fadein{
   opacity: 0;
   transform: translateY(20px);
