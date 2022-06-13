@@ -18,3 +18,9 @@ $(window).scroll(function () {
   }
 
 });
+
+$(function () {
+  $('#toggle').on('click', function () {
+    $('body').toggleClass('is-open');
+  });
+});
