@@ -32,9 +32,24 @@ header {
 
 .category_img{
  height: 400px;
- background-image: url(../img/retro_top.jpg);
  background-size: contain;
  background-attachment: fixed;
+}
+
+.category_bgimg1{
+   background-image: url(../img/retro_top.jpg);
+}
+
+.category_bgimg2{
+   background-image: url(../img/impact_top.jpg);
+}
+
+.category_bgimg3{
+   background-image: url(../img/genius_top.jpg);
+}
+
+.category_bgimg4{
+   background-image: url(../img/popup_top.jpg);
 }
 
 .column{

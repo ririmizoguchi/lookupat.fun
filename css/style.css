@@ -450,6 +450,10 @@ header {
   position: relative;
 }
 
+.icon{
+  width: 14px;
+}
+
 .gallery_container{
   text-align: center;
 }
@@ -464,6 +468,9 @@ header {
 .about_paragraph{
  text-align: center;
  line-height: 50px;
+ font-size: 13px;
+text-align: center;
+letter-spacing: 0.03em;
  color: #4d4d4d;
 }
 
@@ -474,12 +481,13 @@ header {
 
 h2{
   font-family: 'Zen Maru Gothic';
-  font-size: 16px;
+  font-size: 13px;
   letter-spacing:  0.445em;
   transform: translate(4.5px, 0);
 }
 
 .gallery_paragraph{
+  width: 230px;
   margin-top: 50px;
   margin-bottom: 100px;
   font-size: 13px;
