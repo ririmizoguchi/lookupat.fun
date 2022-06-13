@@ -250,6 +250,10 @@ margin: 180px;
 flex-direction:row-reverse;
 }
 
+.destination_img{
+  width: 522px;
+}
+
 .destination_subtitle{
   font-size: 16px;
     font-family: 'Klee One';
@@ -650,6 +654,10 @@ margin: 180px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.destination_img{
+  width: 257px;
 }
 
 .destination_subtitle{
