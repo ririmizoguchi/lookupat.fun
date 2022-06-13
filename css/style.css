@@ -617,6 +617,10 @@ word-wrap: break-word;
   margin: 0;
 }
 
+.what_li_container{
+  margin: 40px;
+}
+
 
 h3{
   margin: 50px 0;
@@ -624,6 +628,7 @@ h3{
   font-weight: 100;
   width: 197px;
   font-size: 13px;
+  transform: translate(-50px, 0);
 }
 
 .current{
@@ -638,7 +643,7 @@ font-weight: 400;
 line-height: 35px;
 letter-spacing: 0.24em;
 width: 227px;
-    transform: translate(-15px, 0);
+    transform: translate(-60px, 0);
 }
 
 .destination_container{
