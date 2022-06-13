@@ -404,9 +404,9 @@ width: 50%;
 }
 
 body {
-    background: #fafafa;
-    text-align: center;
-    font-size: 20px;
+  background: #fafafa;
+  text-align: center;
+  font-size: 20px;
 }
 
 h1 {
@@ -521,6 +521,7 @@ h1 {
 position: relative;
 background-image: url(../img/sp_toppic.jpg);
 height: 600px;
+background-repeat: no-repeat;
 background-size: cover;
 background-position-x: -580px, 0;
 }
@@ -629,6 +630,7 @@ h2{
 
 .description{
   color: #4d4d4d;
+  font-size: 13px;
 }
 
 
@@ -650,6 +652,7 @@ width: 280px;
 height: 48px;
 border-radius: 30px;
 background-size: cover;
+font-size: 14px;
 position: relative;
 box-shadow: inset 1px 1px 2px 0 rgba(0, 0, 0, 0.4);
 margin: 15px;
@@ -741,7 +744,7 @@ h3{
 }
 
 .current{
-  padding: 15px 100px 20px 100px;
+  padding: 15px 35px 20px 35px;
    text-decoration: none;
 }
 
@@ -782,17 +785,20 @@ margin: 180px;
 
 .destination_subtitle{
   font-size: 13px;
+  text-align: left;
 }
 
 h4{
   font-size: 21px;
   margin: 10px;
+  text-align: left;
 }
 
 .destination_paragraph{
   font-size: 12px;
   line-height: 35px;
   width: 263px;
+  text-align: left;
 }
 
 .destination_textcontainer2{
