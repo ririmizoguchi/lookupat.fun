@@ -203,12 +203,12 @@ header {
 }
 
 .column{
-  display: flex;
+  display:inline;
   margin: 0 150px;
 }
 
 .space{
-  padding: 200px;
+  display: none;
 }
 
 .photos_container{
@@ -228,7 +228,7 @@ color: #4d4d4d
 }
 
 .photos_description_right{
-  float: left;
+  float: right;
   writing-mode: vertical-rl;
   margin-right: 25px;
     font-family: 'Klee One';
@@ -282,12 +282,12 @@ color: #fff;
 
 .nav_wrapper2 li {
   list-style: none;
-  margin: 9px;
+  margin: 6px;
 }
 
 .nav_wrapper2 a {
   color: #fff;
-  font-size: 15px;
+  font-size: 12px;
   font-style: normal;
   font-family: 'Zen Maru Gothic';
   letter-spacing: 0.3em;
