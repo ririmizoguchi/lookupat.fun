@@ -283,7 +283,7 @@ h4{
   margin: 16px;
 }
 
-#bg-fixed::before{
+#bg-fixed{
   background: url(../img/toppic2.jpg)center/cover;
   height:300px;
   background-attachment: fixed;
@@ -450,6 +450,10 @@ h1 {
   transition: transform .6s ease-in-out, top .5s ease, bottom .5s ease;
 }
 
+.is-open #toggle-box > span{
+  background-color: #3fa1d0;
+}
+
 #toggle-box > span:nth-child(1) {
     top: 0;
 }
@@ -461,9 +465,6 @@ h1 {
     bottom: 0;
 }
 
-.is-open #toggle-box > span {
-    background: #fff;
-}
 .is-open #toggle-box > span:nth-child(1) {
   top: 50%;
   transform: rotate(45deg) translatey(-50%);
@@ -536,9 +537,7 @@ h1 {
   display: none;
 }
 
-.hamburger_list{
-  display: none;
-}
+
 
 .eyecatch{
 position: relative;
@@ -832,8 +831,9 @@ h4{
   margin: 16px;
 }
 
+
 #bg-fixed{
-  background: url(../img/sp_footer.jpg)contain;
+  background: url(../img/sp_footer.jpg)center/cover;
   height:300px;
   background-attachment: fixed;
   position: relative;
@@ -849,9 +849,9 @@ font-size: 13px;
 line-height: 29px;
 letter-spacing: 1.55em;
 color: #fff;
-white-space: none;
 width: 100%;
 }
+
 
 #footer{
   text-align: center;
@@ -903,7 +903,7 @@ background-image: url('https://kiomiru.co.jp/blog/wp-content/uploads/2021/09/img
 
 .swiper{
 padding: 0;
-width: 50%;
+width: 70%;
 }
 
 .slide-img{
