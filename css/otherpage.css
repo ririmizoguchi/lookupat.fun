@@ -39,6 +39,7 @@ header {
  height: 400px;
  background-size: contain;
  background-attachment: fixed;
+ background-repeat: no-repeat;
 }
 
 .category_bgimg1{
