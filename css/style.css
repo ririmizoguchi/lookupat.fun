@@ -44,11 +44,11 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-48%, -50%);
-  font-size: 30px;
+  font-size: 70%;
   font-family: 'Klee One';
   letter-spacing: 0.67em;
   color: #fff;
-white-space: nowrap;
+  white-space: nowrap;
 }
 
 .topimg1{
