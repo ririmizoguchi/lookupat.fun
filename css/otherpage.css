@@ -161,6 +161,10 @@ color: #fff;
   list-style: none;
 }
 
+.spbr{
+  display: inline;
+}
+
 .fadein{
   opacity: 0;
   transform: translateY(20px);
