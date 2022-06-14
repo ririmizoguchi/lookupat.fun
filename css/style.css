@@ -416,6 +416,10 @@ h1 {
   padding-top: 20px;
 }
 
+.humburger{
+  display: inline;
+}
+
 #toggle {
     position: fixed;
     top: 25px;
