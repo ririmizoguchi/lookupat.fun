@@ -28,4 +28,5 @@ $(function () {
     $('.hamburger_list').toggleClass('visible');
     $('body').toggleClass('is-open');
   });
+
 });
