@@ -62,6 +62,10 @@ header {
   margin: 0 150px;
 }
 
+.sp{
+  display: none;
+}
+
 .space{
   padding: 200px;
 }
@@ -248,11 +252,13 @@ header {
 }
 
 .photos_order{
-  display: flex;
+ 
 }
 
 .photos_container{
 margin: 100px auto;
+ display: flex;
+ flex-direction: column;
 }
 
 .photos_element{
