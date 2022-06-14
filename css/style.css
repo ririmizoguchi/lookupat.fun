@@ -514,13 +514,25 @@ h1 {
   z-index: 999;
   visibility: visible;
   opacity: 1;
+  display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .is-open #nav-content a {
   pointer-events: auto;
 }
 
 .nav_container{
   display: none;
+}
+
+.hamburger_list{
+  display: none;
+}
+
+.visible{
+  display: block;
 }
 
 .eyecatch{

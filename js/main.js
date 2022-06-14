@@ -21,9 +21,11 @@ $(window).scroll(function () {
 
 $(function () {
   $('#toggle').on('click', function () {
+    $('.hamburger_list').toggleClass('visible');
     $('body').toggleClass('is-open');
   });
   $('.hamburger_list').on('click', function () {
+    $('.hamburger_list').toggleClass('visible');
     $('body').toggleClass('is-open');
   });
 });

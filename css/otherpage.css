@@ -219,6 +219,38 @@ header {
   display: none;
 }
 
+.order1{
+  order: 1;
+}
+
+.order2{
+  order: 2;
+}
+
+.order3{
+  order: 3;
+}
+
+.order4{
+  order: 4;
+}
+
+.order5{
+  order: 5;
+}
+
+.order6{
+  order: 6;
+}
+
+.order7{
+  order: 7;
+}
+
+.photos_order{
+  display: flex;
+}
+
 .photos_container{
 margin: 100px auto;
 }
@@ -236,7 +268,7 @@ color: #4d4d4d
 }
 
 .photos_description_right{
-  float: right;
+  float: left;
   writing-mode: vertical-rl;
   margin-right: 25px;
     font-family: 'Klee One';
