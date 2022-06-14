@@ -828,7 +828,7 @@ h4{
 }
 
 #bg-fixed{
-  background: url(../img/sp_footer.jpg)center/cover;
+  background: url(../img/sp_footer.jpg)cover;
   height:300px;
   background-attachment: fixed;
   position: relative;
