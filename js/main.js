@@ -23,4 +23,7 @@ $(function () {
   $('#toggle').on('click', function () {
     $('body').toggleClass('is-open');
   });
+  $('.hamburger_list').on('click', function () {
+    $('body').toggleClass('is-open');
+  });
 });
