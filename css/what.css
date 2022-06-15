@@ -79,24 +79,7 @@
 
 @media screen and (max-width:800px) {
 .gnavi li{
-    /*線の基点とするためrelativeを指定*/
-  position: relative;
     margin:0;
-}
-
-/*線の基点位置*/
-.gnavi li::before,
-.gnavi li::after{
-  content:"";
-    /*絶対配置で線の位置を決める*/
-  position: absolute;
-    /*線の形状*/
-  width: 0;
-  height:2px;
-  background:#05b6e757;
-/*アニメーションの指定*/
-  transition: all 0.8s ease;
-  transition-delay: 0.8s;
 }
 
 .gnavi li::before{
