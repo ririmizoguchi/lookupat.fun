@@ -90,7 +90,8 @@ margin: 100px auto;
   float: right;
   writing-mode: vertical-rl;
     font-family: 'Klee One';
-color: #4d4d4d
+color: #4d4d4d;
+margin-left: 25px;
 }
 
 .photos_description_right{
@@ -172,7 +173,7 @@ color: #fff;
 }
 
 .category_bgimg1{
-
+   background-image: url(../img/sp_retro.jpg);
 }
 
 .category_bgimg2{
@@ -273,7 +274,7 @@ color: #fff;
 }
 
 #bg-fixed{
-  background: url(../img/sp_footer.jpg)center/cover;
+  background-image: url(../img/sp_footer.jpg)center/cover;
 }
 
 .footer_text{
