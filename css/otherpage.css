@@ -171,20 +171,8 @@ color: #fff;
  
 }
 
-.category_img:before{
-       position:fixed;
-       top:0;
-       left:0;
-       width:100%;
-       
-       background:url("../img/sp_retro.jpg") no-repeat;
-       -webkit-background-size:contain;
-       background-size:contain;
-       content:"";
-    }
-
 .category_bgimg1{
-   background-image: url(../img/sp_retro.jpg);
+
 }
 
 .category_bgimg2{
@@ -198,6 +186,17 @@ color: #fff;
 .category_bgimg4{
    background-image: url(../img/sp_popup.jpg);
 }
+
+.category_img:before{
+       position:fixed;
+       top:0;
+       left:0;
+       width:100%; 
+       background:url("../img/sp_retro.jpg") no-repeat;
+       -webkit-background-size:contain;
+       background-size:contain;
+       content:"";
+    }
 
 .column{
   display:inline;
