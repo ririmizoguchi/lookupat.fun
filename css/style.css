@@ -365,9 +365,6 @@ color: #fff;
 }
 
 
-
-
-
 /*css for Swiper*/
 .descliption{
   font-size: 24px;
@@ -507,7 +504,7 @@ h1 {
     overflow: auto;
     width: 100%;
     height: 100%;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.93);
     color: #3FA1D0;
     position: fixed;
     top: 0;
