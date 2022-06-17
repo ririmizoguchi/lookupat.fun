@@ -252,6 +252,10 @@ color: #fff;
   order: 9;
 }
 
+.order10{
+  order: 10;
+}
+
 
 .photos_container{
  display: flex;
